@@ -69,8 +69,8 @@ for col in required_cols:
 # 3️⃣ PARÁMETROS DE FORECAST
 # ======================================
 #st.sidebar.header("Parámetros del Forecast")
-#periods = st.sidebar.number_input("Horizonte a pronosticar (días)", min_value=7, max_value=365, value=30, step=7)
-#seasonality_mode = st.sidebar.selectbox("Modo de estacionalidad", ['additive', 'multiplicative'])
+periods = st.sidebar.number_input("Horizonte a pronosticar (días)", min_value=7, max_value=365, value=30, step=7)
+seasonality_mode = st.sidebar.selectbox("Modo de estacionalidad", ['additive', 'multiplicative'])
 
 # ======================================
 # 4️⃣ FORECAST POR SKU
